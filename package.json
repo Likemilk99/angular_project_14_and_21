@@ -1,0 +1,10 @@
+{
+  "name": "angular-cross-version-widget-demo",
+  "private": true,
+  "scripts": {
+    "start:shell": "npm --prefix apps/shell-ng14 start",
+    "start:widget-modern": "npm --prefix apps/widget-modern-ng22 start",
+    "build:shell": "npm --prefix apps/shell-ng14 run build",
+    "build:widget-modern": "npm --prefix apps/widget-modern-ng22 run build"
+  }
+}
